@@ -17,7 +17,7 @@ public static void main(String[] args) throws FileNotFoundException, IOException
 	/*
 	 * doc file json theo doi tuong  cach don gian nhat
 	 */
-	JSONParser jsonParser = new JSONParser();
+	JSONParser jsonParser = new JSONParser();// read moi dung thang nay
 	JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader("khoa.json"));
 	String maKh,tenKh;
 	maKh = jsonObject.get("maKH").toString();
