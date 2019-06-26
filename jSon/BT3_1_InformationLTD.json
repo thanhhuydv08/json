@@ -1,0 +1,12 @@
+{"info_company":{"nameC":"Cong ty abc",
+		"add":"123 Vo van Tan",
+		"mail":"thanhhuydv08@gmail.com",
+		"phone":"0965666666",
+		"brach":"7 don vi",
+		"staffC":96},
+"info_brach":   [
+		{"ID": "A1","staffB":14},
+		{"ID":"A2", "staffB":15},
+		{"ID":"B1", "staffB":14},
+		{"ID":"B2","staffB":20}]
+}
